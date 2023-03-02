@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    height: 100vh;
+}
+
+.header {
+    background: url(../images/bg-main-desktop.png) no-repeat;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    gap: 30px;
+    text-transform: uppercase;
+    color: hsl(270, 3%, 87%);
+    padding-left: 50px;
+}
+
+.circles {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.circle-1 {
+    height: 50px;
+    width: 50px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.circle-2 {
+    height: 20px;
+    width: 20px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.front-card {
+    background: url(../images/bg-card-front.png);
+    padding: 30px;
+    height: 245px;
+    width: 447px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    right: -15%;
+}
+
+.front-card h1 {
+    font-weight: 500;
+}
+
+.front-card .info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.front-card .user-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+}
+
+.back-card {
+    position: relative;
+    right: -25%;
+    height: 245px;
+    width: 447px;
+    background: url(../images/bg-card-back.png);
+}
+
+.back-card span {
+    position: absolute;
+    right: 12%;
+    top: 45%;
+}
+
+.main {
+    position: relative;
+    display: flex;
+    padding: 10% 5%;
+}
+
+.main section {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.main .selecionado {
+    z-index: 1;
+    opacity: 1;
+    position: relative;
+}
+
+.formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+
+.formulario label {
+    color: hsl(278, 68%, 11%);
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.message-error {
+    font-size: 12px;
+    color: hsl(0, 100%, 66%);
+    visibility: hidden;
+    margin-bottom: 10px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid hsl(270, 3%, 87%);
+    margin-bottom: 5px;
+}
+
+.date-and-cvc {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.date {
+    display: flex;
+    gap: 10px;
+}
+
+#date {
+    height: fit-content;
+}
+
+#year {
+    width: 60px;
+}
+
+input[type="submit"] {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(278, 68%, 11%);
+    padding: 15px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.valid {
+    border-color: hsl(249, 99%, 64%);
+}
+
+.invalid {
+    border-color: hsl(0, 100%, 66%);
+}
+
+.message-invalid {
+    visibility: visible;
+}
+
+.message-valid {
+    visibility: hidden;
+}
