@@ -2,7 +2,7 @@
     body {
         flex-direction: column;
         height: 100%;
-        gap: 30px;
+        gap: 1.8rem;
         width: 100%;
     }
 
@@ -31,7 +31,7 @@
     }
 
     .front-card .circles {
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
     }
 
     .front-card h1 {
@@ -61,7 +61,7 @@
     body {
         flex-direction: column;
         height: 100%;
-        gap: 30px;
+        gap: 1.8rem;
         width: 100%;
     }
 
@@ -90,7 +90,7 @@
     }
 
     .front-card .circles {
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
     }
 
     .front-card h1 {
@@ -120,7 +120,7 @@
     body {
         flex-direction: column;
         height: 100%;
-        gap: 30px;
+        gap: 1.8rem;
         width: 100%;
     }
 
@@ -149,7 +149,7 @@
     }
 
     .front-card .circles {
-        margin-bottom: 10px;
+        margin-bottom: 0.6rem;
     }
 
     .front-card h1 {
