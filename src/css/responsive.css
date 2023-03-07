@@ -1,0 +1,176 @@
+@media (max-width:350px) {
+    body {
+        flex-direction: column;
+        height: 100%;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 5% 10%;
+        gap: 0;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .front-card {
+        width: 85%;
+        height: fit-content;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        right: 0%;
+        left: 10%;
+        bottom: -10%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .front-card .circles {
+        margin-bottom: 10px;
+    }
+
+    .front-card h1 {
+        font-size: 1.2rem;
+    }
+
+    .back-card {
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: -5%;
+        width: 100%;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .back-card span {
+        top: 25%;
+    }
+
+    .main {
+        padding: 5%;
+    }
+
+}
+
+@media (min-width: 350px) and (max-width:400px) {
+    body {
+        flex-direction: column;
+        height: 100%;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 5% 10%;
+        gap: 0;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .front-card {
+        width: 85%;
+        height: fit-content;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        right: 0%;
+        left: 10%;
+        bottom: -10%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .front-card .circles {
+        margin-bottom: 10px;
+    }
+
+    .front-card h1 {
+        font-size: 1.2rem;
+    }
+
+    .back-card {
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: -5%;
+        width: 100%;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .back-card span {
+        top: 30%;
+    }
+
+    .main {
+        padding: 5%;
+    }
+
+}
+
+@media (min-width: 400px) and (max-width:700px) {
+    body {
+        flex-direction: column;
+        height: 100%;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+        flex-direction: column-reverse;
+        padding: 5% 10%;
+        gap: 0;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .front-card {
+        width: 85%;
+        height: fit-content;
+        border-radius: 10px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        right: 0%;
+        left: 10%;
+        bottom: -10%;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .front-card .circles {
+        margin-bottom: 10px;
+    }
+
+    .front-card h1 {
+        font-size: 1.2rem;
+    }
+
+    .back-card {
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: -5%;
+        width: 100%;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .back-card span {
+        top: 33%;
+    }
+
+    .main {
+        padding: 5%;
+    }
+
+}
