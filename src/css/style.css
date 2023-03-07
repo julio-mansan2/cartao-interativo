@@ -3,7 +3,8 @@
 body {
     font-family: 'Space Grotesk', sans-serif;
     display: flex;
-    height: 100vh;
+    height: 100%;
+    gap: 150px;
 }
 
 .header {
@@ -13,11 +14,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
     gap: 30px;
     text-transform: uppercase;
     color: hsl(270, 3%, 87%);
-    padding-left: 50px;
+    padding: 5%;
 }
 
 .circles {
@@ -50,7 +50,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: relative;
-    right: -15%;
+    right: -25%;
 }
 
 .front-card h1 {
@@ -71,7 +71,7 @@ body {
 
 .back-card {
     position: relative;
-    right: -25%;
+    right: -35%;
     height: 245px;
     width: 447px;
     background: url(../images/bg-card-back.png);
@@ -86,19 +86,19 @@ body {
 .main {
     position: relative;
     display: flex;
-    padding: 10% 5%;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
 }
 
 .main section {
-    position: absolute;
-    z-index: -1;
-    opacity: 0;
+    display: none;
 }
 
 .main .selecionado {
     z-index: 1;
     opacity: 1;
-    position: relative;
+    display: flex;
 }
 
 .formulario {
@@ -110,7 +110,6 @@ body {
 .formulario form {
     display: flex;
     flex-direction: column;
-    width: 55%;
 }
 
 .formulario label {
@@ -150,8 +149,16 @@ input {
     height: fit-content;
 }
 
+#month {
+    width: 60px;
+}
+
 #year {
     width: 60px;
+}
+
+#cvc {
+    width: 100%;
 }
 
 input[type="submit"] {
@@ -179,4 +186,36 @@ input[type="submit"]:hover {
 
 .message-valid {
     visibility: hidden;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-align: center;
+}
+
+.thanks h1 {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.thanks p {
+    color: hsl(279, 6%, 55%);
+}
+
+.thanks button {
+    background: hsl(278, 68%, 11%);
+    width: 130%;
+    padding: 15px;
+    color: hsl(270, 3%, 87%);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+
+.thanks button:hover {
+    cursor: pointer;
 }
